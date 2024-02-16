@@ -1,0 +1,24 @@
+{
+  "Students": [
+    {"StudentCode": 1, "LastName": "Журавлёв", "FirstName": "Александр", "MiddleName": "Михайлович"},
+    {"StudentCode": 2, "LastName": "Романовский", "FirstName": "Даниил", "MiddleName": "Дмитриевич"},
+    {"StudentCode": 3, "LastName": "Булдыгина", "FirstName": "Елизавета", "MiddleName": "Константиновна"}
+  ],
+  "Subjects": [
+    {"SubjectCode": 101, "Name": "Алгебра", "LectureHours": 30, "PracticeHours": 20},
+    {"SubjectCode": 102, "Name": "Геометрия", "LectureHours": 25, "PracticeHours": 15},
+    {"SubjectCode": 103, "Name": "Русский", "LectureHours": 20, "PracticeHours": 20},
+    {"SubjectCode": 103, "Name": "Информатика", "LectureHours": 20, "PracticeHours": 40}
+  ],
+  "EducationPlan": [
+    {"StudentCode": 1, "SubjectCode": 101, "Grade": "Отлично"},
+    {"StudentCode": 1, "SubjectCode": 102, "Grade": "Хорошо"},
+    {"StudentCode": 1, "SubjectCode": 103, "Grade": "Отлично"},
+    {"StudentCode": 2, "SubjectCode": 101, "Grade": "Хорошо"},
+    {"StudentCode": 2, "SubjectCode": 102, "Grade": "Отлично"},
+    {"StudentCode": 2, "SubjectCode": 103, "Grade": "Удовлетворительно"},
+    {"StudentCode": 3, "SubjectCode": 101, "Grade": "Отлично"},
+    {"StudentCode": 3, "SubjectCode": 102, "Grade": "Отлично"},
+    {"StudentCode": 3, "SubjectCode": 103, "Grade": "Хорошо"}
+  ]
+}
